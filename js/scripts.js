@@ -45,6 +45,7 @@
   $(window).scroll(navbarCollapse);
 
   // Magnific popup calls
+/*
   $('#portfolio').magnificPopup({
     delegate: 'a',
     type: 'image',
@@ -61,3 +62,4 @@
   });
 
 })(jQuery); // End of use strict
+*/
