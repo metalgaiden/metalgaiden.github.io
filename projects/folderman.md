@@ -28,12 +28,12 @@ of fiction.
 When you first download Folderman you are greeted to an exe, the files of the game, and 
 a zip file titled "Keep out".
 
-![keep out](/assets/img/folderman/keepout.png)
+<img src="/assets/img/folderman/keepout.png" alt="drawing" width="400"/>
 
 Playing the exe starts a pacman clone, where you play as a folder picking up files scattered
 around. You avoid error messages but collecting files doesn't seem to do anything special.
 
-![game start](/assets/img/folderman/game_start.png)
+<img src="/assets/img/folderman/game_start.png" alt="drawing" width="400"/>
 
 In later versions I have also included an arg.txt file to get players started, as the first
 clue is easy to miss. Opening arg.txt gives us this text:
@@ -51,54 +51,54 @@ code.
 When we do this the screen starts to glitch out, specifically half the screen, which is
 an homage to the way the real pacman glitches out when you get past level 256.
 
-![game glitch](/assets/img/folderman/game_glitch.png)
+<img src="/assets/img/folderman/game_glitch.png" alt="drawing" width="400"/>
 
 After a few seconds the screen goes black and the first password is given to us. With this
 we can start solving the ARG.
 
-![game konami](/assets/img/folderman/game_konami.png)
+<img src="/assets/img/folderman/game_konami.png" alt="drawing" width="400"/>
 
 By going back to the folder where the game was downloaded we can now unlock keepout.zip 
 with the password we just got.
 
-![konami](/assets/img/folderman/konami.jpg)
+<img src="/assets/img/folderman/konami.jpg" alt="drawing" width="400"/>
 
 ### Part II: New Name, New File
 
 Doing so gives us a folder titled "Step 1" with 3 files in it, another zip file, a clue to 
 crack the password to the zip file and a hint for those in need of help.
 
-![step 1](/assets/img/folderman/step1.png)
+<img src="/assets/img/folderman/step1.png" alt="drawing" width="400"/>
 
 If we try to open the clue though we are met with yet another road block. It seems like no
 image editor will even open the damn thing.
 
-![clue 1](/assets/img/folderman/clue1.png)
+<img src="/assets/img/folderman/clue1.png" alt="drawing" width="400"/>
 
 The trick for this puzzle is pretty simple, most args start off with something along these
 lines. Simply rename the file from .png to .txt and you'll be able to read what's inside.
 
-![rename](/assets/img/folderman/step1_rename2.png)
+<img src="/assets/img/folderman/step1_rename2.png" alt="drawing" width="400"/>
 
 With the first step down and out of the way we can move on to step 2. Once again we face 
 three files, Thought this time there are two zip files instead of one.
 
-![step2](/assets/img/folderman/step2_rename1.png)
+<img src="/assets/img/folderman/step2_rename1.png" alt="drawing" width="400"/>
 
 This is just a bit of misdirection though as once again you just need to rename the clue
 into a file format it can be read from, which in this case is a .png.
 
-![step2 rename](/assets/img/folderman/step2_rename2.png)
+<img src="/assets/img/folderman/step2_rename2.png" alt="drawing" width="400"/>
 
 From here we open the image aaaand... a whole lot of nothin. It's too dark to make out any 
 sort of clue from this picture.
 
-![clue 2](/assets/img/folderman/clue2.png)
+<img src="/assets/img/folderman/clue2.png" alt="drawing" width="400"/>
 
 For anyone familiar with photo editing, finding information here is as simple as pulling up
 the contrast and WHAM, just like that we can grab the password for part 3.
 
-![clue 2 solved](/assets/img/folderman/clue2_solved.png)
+<img src="/assets/img/folderman/clue2_solved.png" alt="drawing" width="400"/>
 
 ### Part III: Feeling the *and*
 
@@ -107,7 +107,7 @@ longest to put together.
 
 Once we open the zip file for step 3 we are greeted with a bunch of text files.
 
-![clue 3](/assets/img/folderman/clue3.png)
+<img src="/assets/img/folderman/step3.png" alt="drawing" width="400"/>
 
 If we open the up we get a series of humerous messages, most of them just synonyms for
 the name of the file they occupy.
@@ -179,7 +179,7 @@ that's neither here not there so Let's continue on to the second to last puzzle.
 Step 4 opens up to 4 files, but it almost looks like I made a mistake while copying
 the files into this folder.
 
-![step 4](/assets/img/folderman/step4.png)
+<img src="/assets/img/folderman/step4.png" alt="drawing" width="400"/>
 
 But once again that's part of the puzzle. The two files that claim to be carbon copies
 are pretty close, but there are a few differences if you look closely.
@@ -192,7 +192,7 @@ There are a lot of ways to solve this one, but the simplest method would probabl
 to run a diff on the two files. Once you do that you still don't have the code,
 instead you get an email adress and once you send it off, you get this response.
 
-![email](/assets/img/folderman/email_response.jpg)
+<img src="/assets/img/folderman/email_response.jpg" alt="drawing" width="400"/>
 
 Wooo! Some lore, finally, a speck of water in the desert! Too bad it's pretty 
 much the only water you get, so you'll have to hold out until the end.
@@ -207,7 +207,7 @@ do something cool with this in the future. For now we move on the the finale.
 The last puzzle is upon us, and it's a pretty cool one at that. Basically you open the
 last zip file and are greeted to a wav file a hint... and that's it, no zip files in sight.
 
-![step 5](/assets/img/folderman/step5.png)
+<img src="/assets/img/folderman/step5.png" alt="drawing" width="400"/>
 
 This brings up some interesting questions about what form the information we need will be
 in but before we can even start our ears are blasted off by the sound file.
@@ -228,7 +228,7 @@ that we can see what this mess of white noise *looks* like, rather than sounds.
 
 When we run it through a spetral analyzer I found online we get this image:
 
-![spectrograph](/assets/img/folderman/spectrograph.jpg)
+<img src="/assets/img/folderman/spectrograph.jpg" alt="drawing" width="400"/>
 
 It's kind of hard to make out but once again we have a series of arrows, like with the konami code.
 I'm sure you can see where this is heading.
@@ -236,7 +236,7 @@ I'm sure you can see where this is heading.
 Back in the game entering this code once again glitchs the screen, only this time you are presented
 a choice:
 
-![choice](/assets/img/folderman/choice.png)
+<img src="/assets/img/folderman/choice.png" alt="drawing" width="400"/>
 
 Well it's too bad we didn't get this far, Eiter option it just spits you back to the first black 
 screen. Kind of anticlimactic after all that effort, though maybe now is a good time to make a
