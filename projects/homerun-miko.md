@@ -8,15 +8,16 @@ It was created as part of my senior capstone project at UCSC and involved a team
 10 people and a 9 month development cycle.
 
 My role on this project was as lead designer. I designed and iterated on the gamplay
-interactions as well as designing all the puzzles. I also composed all the music for 
-this game.
+interactions and puzzle designs, this required a great deal of coordination with the
+programming team and they helped solidify a number of important design decisions. 
+I also composed all the music for the game.
 
 [Itch.io page](https://chonkershq.itch.io/homerun-miko)
 
 https://youtu.be/pxyQMxoKhJY
 
 ## Highlights
-Some cool moments we ran into during developement that I thought I would share.
+Here are a few interesting challenges we faced during the development of Homerun Miko. Below them is a post mortem on the game as a whole.
 
 ### Linear algebra to the rescue
 At one point during developement we ran into an issue bouncing enemies off the walls. What we didn't realize at first was that the isometric perspective messes with this alot, and it took a fair bit of thinking on our feet to get past it.
@@ -43,7 +44,7 @@ At this point even the teaching team though it may be better to give up, but I w
 
 https://youtu.be/kYB8IZa5AuE?t=76
 
-The basics of how it applies are like this: The camera plane at any given time is our x-y coordinate system. When the camera is tilted so that the perspective is isometric the y axis becomes compressed, skewing the results of any physics you might try to compute. By applying a matrix transformation before an after the calculation you can do all the math in the "real world" and come back to the isometric world when you're done.
+The basics of how it applies are like this: The camera plane at any given time is our x-y coordinate system. When the camera is tilted so that the perspective is isometric the y axis becomes compressed, skewing the results of any physics you might try to compute. By applying a matrix transformation before and after the calculation you can do all the math in the "real world" and come back to the isometric world when you're done.
 
 <img src="/assets/img/miko/cube.gif" alt="drawing" width="400"/>
 
