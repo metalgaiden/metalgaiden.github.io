@@ -22,15 +22,15 @@ Gameplay/Level Designer
 
 [<img src="/assets/img/thumbnails/homerun-miko.png" alt="drawing" width="400"/>](/projects/homerun-miko)
 
-Gameplay Designer  
-[Attack/Defend](/projects/attack-defend)
-
-[<img src="/assets/img/thumbnails/attack-defend.png" alt="drawing" width="400"/>](/projects/attack-defend)
-
 Augmented Reality Puzzle Designer  
 [Folderman](/projects/folderman)
 
 [<img src="/assets/img/thumbnails/folderman.png" alt="drawing" width="400"/>](/projects/folderman)
+
+Gameplay Designer  
+[Attack/Defend](/projects/attack-defend)
+
+[<img src="/assets/img/thumbnails/attack-defend.png" alt="drawing" width="400"/>](/projects/attack-defend)
 
 Narrative Designer  
 [The Performance](/projects/the-performance)
