@@ -41,6 +41,10 @@ We also tried to hard code a certain number of input angles and output angles, b
 
 At this point even the teaching team though it may be better to give up, but I wasn't quite ready to throw in the towel. As someone who watches math and science videos for fun, I was reminded of a really helpful 3D animation I watched to get me to understand linear algebra. Sure enough, when I watched it again I was able to get an intuition for how it might apply to our project.
 
+https://youtu.be/kYB8IZa5AuE?t=76
+
+The basics of how it applies are like this: The camera plane at any given time is our x-y coordinate system. When the camera is tilted so that the perspective is isometric the y axis becomes compressed, skewing the results of any physics you might try to compute. By applying a matrix transformation before an after the calculation you can do all the math in the "real world" and come back to the isometric world when you're done.
+
 <img src="/assets/img/miko/cube.gif" alt="drawing" width="400"/>
 
 After consulting with a friend of mine who is also a math nerd we came up with this solution: Basically you start with the normal of the wall and the vector you wish to reflect off the wall. Since this vector is coming from an isometric perspective, you need to translate it into the top down perspective. You achieve this using matrix transformations, simulating the effect of panning the camera plane to face straign down. After transforming you can calculate the resulting vector by flipping the transformed vector over the transformed normal. Finally you transform the resulting vector back into the isometric plane using an inverse of the matrix transformations used before.
