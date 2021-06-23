@@ -23,20 +23,36 @@ At one point during developement we ran into an issue bouncing enemies off the w
 
 To start off let me explain the basics of calculating a reflection on a wall from a top down perspective. If I throw an enemy at a wall, it's velocity vector simply needs to be flipped over the normal that the wall generates.
 
+<img src="/assets/img/miko/reflection.png" alt="drawing" width="400"/>
+
 If you look at what happens when you try this for an isometric level you can start to see where the problems come into play.
 
+<img src="/assets/img/miko/ric_1.png" alt="drawing" width="400"/>
+
+The normal that the wall creates looks a bit wonky, but if you hold your hand up to the monitor you can see that it is technically correct as far as the computer is concerned.
+
+<img src="/assets/img/miko/ric_2.png" alt="drawing" width="400"/>
+
 The first thing we tried was to offset the angle by a small amount, so the normal would align where it should, but this doesn't quite work. Not only does it make it possible to get angles that go past the wall, it also skews all the shots by a fair bit.
+
+<img src="/assets/img/miko/skew.png" alt="drawing" width="400"/>
 
 We also tried to hard code a certain number of input angles and output angles, but it ended up being too specific, since it would need to be done for all walls.
 
 At this point even the teaching team though it may be better to give up, but I wasn't quite ready to throw in the towel. As someone who watches math and science videos for fun, I was reminded of a really helpful 3D animation I watched to get me to understand linear algebra. Sure enough, when I watched it again I was able to get an intuition for how it might apply to our project.
 
-After consulting with a friend of mine who is also a math nerd we came up with this solution: Basically you start with the normal of the wall and the velocity vector of the enemy. You translate each of these vectors with a matrix that simulates what direction they would point if they were viewed from the top down. After transforming them you calculate the resulting vector by flipping the transformed vector over the transformed normal. Finally you transform the resulting vector back into the isometric plane.
+<img src="/assets/img/miko/cube.gif" alt="drawing" width="400"/>
+
+After consulting with a friend of mine who is also a math nerd we came up with this solution: Basically you start with the normal of the wall and the vector you wish to reflect off the wall. Since this vector is coming from an isometric perspective, you need to translate it into the top down perspective. You achieve this using matrix transformations, simulating the effect of panning the camera plane to face straign down. After transforming you can calculate the resulting vector by flipping the transformed vector over the transformed normal. Finally you transform the resulting vector back into the isometric plane using an inverse of the matrix transformations used before.
+
+<img src="/assets/img/miko/formula.jpg" alt="drawing" width="400"/>
 
 There's a bit more to it since the normal had to be flipped by 90 degrees before and after transforming, but once we had the intuition of what to do, the rest came a lot easier.
 
 ### Designing in meat space
 I tried a lot of technologies to design the levels in this game, but the one that I settled on was to use a go board and salvaged game pieces to recreate the levels in 3D.
+
+<img src="/assets/img/miko/board_level.png" alt="drawing" width="400"/>
 
 There's a couple reasons I chose this approach, the first of which being that it's very maliable. If I designed on paper, which I tried for a bit, then my designs would have to be erased and rewritten each time I wanted to move a shrine a little to the left. Maybe I'm just used to working digitally but being able to move stuff around or undo what I just did immediately are a big plus for me.
 
