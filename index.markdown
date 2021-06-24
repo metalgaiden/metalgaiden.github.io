@@ -12,7 +12,7 @@ Computer Science: Game Design at University of California Santa Cruz.
 I like video games, rock climbing, martial arts (judo, bjj), and tinkering with old electronics.
 
 If you're looking to get in touch my linkedin, github and email are linked below.
-If you're hiring here is a copy of my [resume](/assets/pdf/resume.pdf).
+If you're hiring here is a copy of my [resume](/assets/pdf/Resume.pdf).
 
 ## Projects: 
 Here are some projects I worked on in and out of school.
