@@ -4,7 +4,7 @@ title: Folderman
 permalink: /projects/folderman
 ---
 Folderman is an Augmented Reality Game(ARG) involving file and sound manipulation. 
-The main game is based off pacman, with a number of nested puzzles hidden
+The main game is based off Pacman, with a number of nested puzzles hidden
 in the game files.
 
 My role in this project was to design all the augmented reality puzzles ranging
@@ -30,7 +30,7 @@ a zip file titled "Keep out".
 
 <img src="/assets/img/folderman/keepout.png" alt="drawing" width="400"/>
 
-Playing the exe starts a pacman clone, where you play as a folder picking up files scattered
+Playing the exe starts a Pacman clone, where you play as a folder picking up files scattered
 around. You avoid error messages but collecting files doesn't seem to do anything special.
 
 <img src="/assets/img/folderman/game_start.png" alt="drawing" width="400"/>
@@ -70,7 +70,7 @@ crack the password to the zip file and a hint for those in need of help.
 
 <img src="/assets/img/folderman/step1.png" alt="drawing" width="400"/>
 
-If we try to open the clue though we are met with yet another road block. It seems like no
+If we try to open the clue though we are met with yet another roadblock. It seems like no
 image editor will even open the damn thing.
 
 <img src="/assets/img/folderman/clue1.png" alt="drawing" width="400"/>
@@ -81,7 +81,7 @@ lines. Simply rename the file from .png to .txt and you'll be able to read what'
 <img src="/assets/img/folderman/step1_rename2.png" alt="drawing" width="400"/>
 
 With the first step down and out of the way we can move on to step 2. Once again we face 
-three files, Thought this time there are two zip files instead of one.
+three files, though this time there are two zip files instead of one.
 
 <img src="/assets/img/folderman/step2_rename1.png" alt="drawing" width="400"/>
 
@@ -109,7 +109,7 @@ Once we open the zip file for step 3 we are greeted with a bunch of text files.
 
 <img src="/assets/img/folderman/step3.png" alt="drawing" width="400"/>
 
-If we open the up we get a series of humerous messages, most of them just synonyms for
+If we open them up we get a series of humorous messages, most of them just synonyms for
 the name of the file they occupy.
 
 Listen.txt:
@@ -139,7 +139,7 @@ for you to listen to, notice anything strange about it?
 It's not the glitching sound effect, nor is it anything to do with the melody.
 It's actually all in the bass line.
 
-If you listen super close, and have a notepad ready, you can hear the baseline make a
+If you listen very closely, and have a notepad ready, you can hear the bassline make a
 distinct pattern everytime it comes in, made up of long and short notes.
 
 Know anything else that stores information with long and short pulses?
@@ -160,21 +160,21 @@ to this point in the puzzles.
 ### Part IV Paperwork
 
 You might be wondering at this point how any of this relates back to the game
-itself, and while we will have to opne the game one last time to beat it for 
+itself, and while we will have to open the game one last time to beat it for 
 real, this was probably the biggest area for improvement on this project.
 
-Sometimes I get too exited about the abstract idea of a gameplay implementation
+Sometimes I get so excited about the abstract idea of a gameplay implementation
 that I don't bother to tie it into a larger narrative, and in this game it shows.
 What is there is kind of just hinted at and not really well defined, a fairly flimsy
-justificaion for all this busywork.
+justification for all this busywork.
 
 I say all this now because the game as it stands does start to build out some
-themes. The puzzles so far are mostly trial and error, though the boundries of
+themes. The puzzles so far are mostly trial and error, though the boundaries of
 what you can and can't do are based on how comfortable you are navigating a
 computer's file system. I can see a potential for a narrative to be built
 off the intuitions you gain while using technology affecting how you think
 or what you consider as an "option" when it comes time to solve a problem. But 
-that's neither here not there so Let's continue on to the second to last puzzle.
+that's neither here nor there so Let's continue on to the second to last puzzle.
 
 Step 4 opens up to 4 files, but it almost looks like I made a mistake while copying
 the files into this folder.
@@ -184,20 +184,20 @@ the files into this folder.
 But once again that's part of the puzzle. The two files that claim to be carbon copies
 are pretty close, but there are a few differences if you look closely.
 
-This is one of the first puzzles that you really don't "need" computer knowlege to
+This is one of the first puzzles that you really don't "need" computer knowledge to
 solve, the answer is quite obvious, just find the letters that are different, 
 but the gap between knowing that and knowing how to get that is somewhat daunting.
 
 There are a lot of ways to solve this one, but the simplest method would probably be
 to run a diff on the two files. Once you do that you still don't have the code,
-instead you get an email adress and once you send it off, you get this response.
+instead you get an email address and once you send it off, you get this response.
 
 <img src="/assets/img/folderman/email_response.jpg" alt="drawing" width="400"/>
 
 Wooo! Some lore, finally, a speck of water in the desert! Too bad it's pretty 
 much the only water you get, so you'll have to hold out until the end.
 
-I like this puzzle because of it's open endedness, most ARGs are focused solely on
+I like this puzzle because of it's open-endedness, most ARGs are focused solely on
 the first crack of the cypher, so it's nice to see a more open, potentially expressive
 puzzle. I think if I found tasks that were more immediately interesting maybe I could
 do something cool with this in the future. For now we move on the the finale.
@@ -205,7 +205,7 @@ do something cool with this in the future. For now we move on the the finale.
 ### Part V Spectre
 
 The last puzzle is upon us, and it's a pretty cool one at that. Basically you open the
-last zip file and are greeted to a wav file a hint... and that's it, no zip files in sight.
+last zip file and are greeted to a wav file, a hint... and that's it, no zip files in sight.
 
 <img src="/assets/img/folderman/step5.png" alt="drawing" width="400"/>
 
@@ -222,23 +222,23 @@ out that any wave form (which all sound basically is) can be plotted out in 2D s
 is what you see in an audio editor with all those spiky lines. It's the rate at which the
 sound vibrates the air, and it's usually a mess of a whole bunch of frequencies at once.
 
-As it turns out, as soon as you can map some thing to 2D space, you can map just about anything.
+As it turns out, as soon as you can map something to 2D space, you can map just about anything.
 For us this means we'll have to view the wav file as what's called a spectrograph. So
 that we can see what this mess of white noise *looks* like, rather than sounds.
 
-When we run it through a spetral analyzer I found online we get this image:
+When we run it through a spectral analyzer I found online we get this image:
 
 <img src="/assets/img/folderman/spectrograph.jpg" alt="drawing" width="400"/>
 
 It's kind of hard to make out but once again we have a series of arrows, like with the konami code.
 I'm sure you can see where this is heading.
 
-Back in the game entering this code once again glitchs the screen, only this time you are presented
+Back in the game entering this code once again glitches the screen, only this time you are presented
 a choice:
 
 <img src="/assets/img/folderman/choice.png" alt="drawing" width="400"/>
 
-Well it's too bad we didn't get this far, Eiter option it just spits you back to the first black 
+Unfortunately that's about as far as we got in terms of coding; Eiter option it just spits you back to the first black 
 screen. Kind of anticlimactic after all that effort, though maybe now is a good time to make a
 snide "the journey was the destination comment".
 
@@ -253,9 +253,9 @@ As an exploration? Well there were some cool ideas looked at here, though I thin
 more well versed in ARGs would likely chew through this one in a weekend.
 
 As an experience...? I guess it depends on the person, if I could teach someone even just a couple
-neat tricks that'd be worth it to me. I know I got a lot out of it myself. Made me appriciate the
-context that most modern ARGs provide, what with fake companies and stories of world domination.
-Before starting this I had assumed that was all just a backdrop, just some prop that that players
+neat tricks that'd be worth it to me. I know I got a lot out of it myself. Made me appreciate the
+context that most modern ARGs provide, with fake companies and stories of world domination.
+Before starting this I had assumed that was all just a backdrop, just some prop that the players
 knew was fake right away and didn't care about. But what I realized was that it's all part of the 
 same experience. Part of breaking the codes is that "make a fort out of pillows and pretend you're 
 a spy" energy. It's not missing the point, because to a certain extent, that kind of make believe
