@@ -3,7 +3,7 @@ layout: page
 title: The Performance
 permalink: /projects/the-performance
 ---
-The Performance is a 4th wall breaking point and click adventure game, set in a western saloon.  
+The Performance is a 4th wall breaking point and click adventure game, set in a western saloon.
 Many of the controls are intentionally absurd and this game often plays around the player's expectations.
 
 My role in developing this game was as a narrative designer, I wrote all the scenarios and interactions you
