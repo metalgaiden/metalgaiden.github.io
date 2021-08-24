@@ -4,7 +4,7 @@ title: "Epistagraph"
 permalink: /projects/epistagraph/
 ---
 Epistagraph is a design tool for non-linear puzzle design.
-It allows you to plan out interconnected puzzles and have an idea of what the player might be expected to know beforehand or what they will learn as they play.
+It allows you to plan out interconnected puzzles and have an idea of what the player might be expected to know beforehand or what they will learn as they play. It can be found in a pre-alpha state on github [here](https://github.com/metalgaiden/epistagraph).
 
 Secrets, Codes, Puzzles. What do these things have in common? The way that they are solved. They all require knowledge to solve, and in fact, once you have knowledge of the solution, there isn’t much solving left to do. In recent years we have seen the rise of game guides and youtube explanations of secrets and unlocks, Giving us all the answers we could ever want, and yet, many people still find the puzzles compelling, finding it frustrating when designers let the community become a mandatory resource to discover all it has to offer. I hope to remedy that. This tool is designed to give the designer confidence that the secrets or puzzles they make are in fact solvable, and with just the tools the game provides.
 
