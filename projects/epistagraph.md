@@ -22,7 +22,7 @@ What I’ve done is create a tool that lets you map out the player’s progressi
 
 If you want to solve it do so before I spoil it ahead. Without further ado, here is the diagram I made in Epistagraph to visualize this puzzle system:
 
-<iframe src="/assets/godot/word_search/Epistagraph.html" style="width:1080px;height:720px;border:0"></iframe>
+[Word Search Graph](/assets/godot/word_search/Epistagraph.html){:target="blank"}
 
 There are two main takaways from seeing the puzzles visualized like this. The first is the structure of the puzzles and information flow. This style of puzzle is somewhat linear, but reuses most of it's elements for more than one thing, especially the word search, which was somewhat of a focal point in this puzzle system. As we will see later this can be changed to make lots of different configurations, and is often tied in heavily with the level design when placed in more traditional games. The more complex this web of connections is, the more complicated your puzzle system is likely to be, so keep that in mind and make sure to allow lots of differnt sources of the same knowlege if your game is big and it's not likely the player will see all of it in one go.
 
@@ -30,11 +30,11 @@ The other thing to take note of is the "knowlege required:" field, and how some 
 
 To show how this can be used more broadly I have included an analysis of two games that I love, The Witness and Noita. One does it’s secret discovery very well, and the other… well it has some issues. Spoilers ahead but I will constrain my scope for the sake of my time and so that I don’t take away anyone’s discovery of these games.
 
-<iframe src="/assets/godot/witness_desert/Epistagraph.html" style="width:1080px;height:720px;border:0"></iframe>
+[Witness Graph](/assets/godot/witness_desert/Epistagraph.html){:target="blank"}
 
 While making this graph for the desert area I noticed that it seemed like this area was designed for a specific experience. All the nodes expanded on past ideas, not just linearly, but also using lessons from puzzles several steps behind. The most interesting thing I noticed was how many outputs led into the secrets for the area. In my experience playing the game I found that all this was not enough to show me the secret on it’s own. It was more like the experience you get in a mystery novel or movie where once you understand the truth at the end of the book, you go back and find all the clues that could have tipped you off. It can be quite satisfying if done well, and even if you give away a little too much you can often make the player feel smart anyways.
 
-<iframe src="/assets/godot/noita_secret/Epistagraph.html" style="width:1080px;height:720px;border:0"></iframe>
+[Noita Graph](/assets/godot/noita_secret/Epistagraph.html){:target="blank"}
 
 For the noita secret quest line we can see that there are far more obscure and obtuse knowledge checks, some of which would probably only be solved by trail and error, which is the least interesting puzzle solving method to me. Knowledge of the anvil room is probably the biggest culprit here, though I think the biome you need to go to next would be nice if it was signposted better, even though they are in sequential order. One of the cooler ideas though was having the broken wand passively teach you about this mechanic, allowing players to apply knowledge from outside the questline. I would need to check the item descriptions, but if the broken wand told you where to find the anvil I feel like most of my problems would be resolved. That and a note telling you that the portal needed to be fired at a certain location. I feel like I would try to use my spell crafting knowledge to solve this to no avail, a knowledge base that I think is underutilized in this game’s secrets thus far.
 
