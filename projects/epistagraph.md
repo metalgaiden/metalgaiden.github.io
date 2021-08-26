@@ -18,7 +18,7 @@ What I’ve done is create a tool that lets you map out the player’s progressi
 
 <img src="/assets/img/epistagraph/crossword.png" alt="drawing" width="400"/>
 
-[Clues.txt](/assets/img/epistagraph/clues.txt)
+[Clues.txt](/assets/img/epistagraph/clues.txt){:target="blank"}
 
 If you want to solve it do so before I spoil it ahead. Without further ado, here is the diagram I made in Epistagraph to visualize this puzzle system:
 
