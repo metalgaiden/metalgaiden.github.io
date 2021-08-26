@@ -9,7 +9,7 @@ layout: default
 <h2> About me: </h2>
 I am a game designer and programmer with a B.S. in Computer Science: Game Design at University of California Santa Cruz. I like video games of course, but also rock climbing, martial arts (judo, bjj), and tinkering with old electronics.
 
-I try to play a wide variety of games across different genres to better understand what makes a game engaging and worth playing. My favorite games are fighting games, but I also play rogue-likes/lites, simulation games, platformers, strategy games, puzzle games, tabletop games, really anything that delivers a quality gaming experience.
+I try to play a wide variety of games across different genres to better understand what makes a game engaging and worth playing. My favorite games are fighting games, but I also play rogue-likes/lites, role playing games, platformers, puzzle games, tabletop games, really anything that delivers a quality gaming experience.
 
 ## What I'm looking for:
 I’m interested in working on games that meaningfully push gaming forward as a medium, which can mean a number of things to different people. So let me be a little more specific.
