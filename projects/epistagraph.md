@@ -3,14 +3,98 @@ layout: page
 title: "Epistagraph"
 permalink: /projects/epistagraph/
 ---
-Epistagraph is a design tool for non-linear puzzle design.
-It allows you to plan out interconnected puzzles and have an idea of what the player might be expected to know beforehand or what they will learn as they play. It can be found in a pre-alpha state on github [here](https://github.com/metalgaiden/epistagraph).
+Epistagraph is a tool for designing and diagnosing knowledge based progression systems.
+It allows you understand the flow of information if your game as well as designing secrets and puzzles that are dynamic and intuitive.
+It can be found in a pre-alpha state on github [here](https://github.com/metalgaiden/epistagraph).
 
-Secrets, Codes, Puzzles. What do these things have in common? The way that they are solved. They all require knowledge to solve, and in fact, once you have knowledge of the solution, there isn’t much solving left to do. In recent years we have seen the rise of game guides and youtube explanations of secrets and unlocks, Giving us all the answers we could ever want, and yet, many people still find the puzzles compelling, finding it frustrating when designers let the community become a mandatory resource to discover all it has to offer. I hope to remedy that. This tool is designed to give the designer confidence that the secrets or puzzles they make are in fact solvable, and with just the tools the game provides.
+First of all we might want to nail down what a progression system is in games.
+The most common form we find I will dub "extrinsic progression".
+This encompasses all the progression elements the game provides, such as leveling, gear, skill trees, resources and so on.
+This is in contrast to "intrinsic progression", which is progression that happens to the player rather than the game.
+While both of these progression systems can be important, I would like to focus on intrinsic progression, as I feel it's somewhat missing from our design language.
 
-For all other progression systems and economies we can map out what resources go where, when the player should hit what level, and how long it will take them as a whole. Why can’t we treat knowledge as a similar resource? Sure, it’s not a resource we have direct access to, but as good designers we should be confident in our ability to communicate through design and have backup plans for when what he have isn't working. The other issue is that the player may come to the game with knowledge that they already have from forums or elsewhere. This is more concerning, but hopefully by building player trust in our design we can convince them to avoid spoilers for our game like they would for anything else they cared about a lot.
+The most common form of intrinsic progression we see in games is skill based progression.
+Even if a player gets no better gear in playing a game, their skill will have improved, and thus they will have progressed, either in power or some other metric unique to the game at hand.
+This form of progression has largely been accepted in gaming today, and we even have formal tools to help us balance games around it.
+While you might not be able to adjust the "experience" gained as a player levels up their skill, we can still use statistical tools and ELO rating systems to measure where the player is at.
 
-What I’ve done is create a tool that lets you map out the player’s progression in terms of what they will learn and what they need to know for each puzzle/secret. Let me show you a quick example. This is a sample game I made to show one type of puzzle organization you could come up with. It consists of 3 images and one text file, and is solved when you find the password hidden in one of the files. All of the files are used in the puzzle but I would suggest starting with the word search.
+But there is another form of intrinsic progression, one that rarely gets talked about and has little to no tools of analysis when it comes to design.
+That is the progression of player knowledge.
+I exaggerate a little, philosophers have been debating this progression system and our position on it for centuries.
+It's just now that we game designers get to join in on the fun.
+
+So let's examine knowledge based progression and how it differs from skill based progression.
+Let's imagine a chess game between two grand masters.
+Both have equal skill in the sport, but for one of these players we remove his knowledge of chess openings.
+This player would be at a severe disadvantage.
+While he might be able to intuit a large amount of the best moves, he will simply not know about traps and gambits that may affect him further down the line.
+
+It's the same way with video games, those who know more intimately how the system works will be better off, or in other words, more progressed.
+Furthermore, this progression is not due solely to skill, even if the learning required to get there was a skill in and of itself.
+Even if the idea of a "knowledge check" in a game sounds inherently un-fun, it's important to understand the process that creates them, so that we might avoid making them unnecessary or unreasonable.
+
+And that's where this tool comes in handy.
+You can basically use it to map out how and where your player might acquire knowledge, and where that knowledge will be applied or tested later.
+Let's move away from the abstract and into examples.
+Here is an example of the industry standard text popup tutorials we see in many games nowadays.
+
+
+
+There are two main takeaways from seeing the player learning visualized like this.
+The first is the structure of the puzzles and information flow.
+From the graph we can see that the progression of knowledge is quite linear, each level teaching a new mechanic and then moving on to the next.
+As we will see later this can be changed to make lots of different configurations, and is often tied in heavily with the level design, especially in more open ended games.
+The more complex this web of connections is, the more complicated your knowledge progression system is likely to be, so keep that in mind and make sure to allow lots of different sources of the same knowledge if your game is big and it's not likely the player will see all of it in one go.
+
+The other thing to take note of is the "knowledge required:" field, and how some of them say things like "general: ..." and have no connection attached.
+These are known as entry points, and point out pieces of information your player will be expected to know from outside the game or area you are analyzing.
+This is important, as players will want to apply what they know in the real world to the game, but it comes at the cost of potentially losing players with different starting information.
+An example of this can be found in the early puzzle design of Zork, which has a puzzle that requires knowledge of baseball, something players of a fantasy role playing game are likely to be confused by.
+
+As you can see, the learning in this example is not very interestingly integrated into the game flow.
+The player plays a level, then is told about a mechanic for the upcoming level before they have a chance to see it for themselves.
+For linear games this can be fixed fairly easily with a more interactive tutorial, like by showing the mechanic affecting an npc or by allowing player experimentation in a safe environment, but for more open ended games this might not be an option.
+Let's look at the structure of puzzle knowledge in a game like The Witness.
+
+
+
+This is, of course, a very zoomed out look at the knowledge flow in the game, but provides an interesting look at an intended experience the designer put in.
+As you can see the town in the middle, which is accessible and often arrived to early in the game, has the most knowledge requirements of any area in the game.
+This means that the player is likely to learn early on that they sometimes have to leave a puzzle and come back to solve it later.
+A similar process happens even at a smaller scale, let's take a look at a single area in The Witness, though I will remain vague so as to not ruin the experience for new players.
+
+[Witness Graph](/assets/godot/witness_desert/Epistagraph.html){:target="blank"}
+
+The key thing to point out here is that the "outside: secrets" knowledge is likely to be the deciding factor in if they solve the secret puzzles of the desert.
+That being the case we might notice a similar narrative from before forming, where the player is confronted with artifacts of a puzzle they don't quite have the knowledge for, then they come back later and are struck at how many clues were there the whole time.
+It reminds me a lot of murder mysteries, which don't necessarily care if you solve them, just that once the answer is revealed you will appreciate the foreshadowing that went into the first half of the story.
+
+This tool really comes into it's own when analyzing secrets and easter eggs though, as it gives you a good idea of how obtuse your secret is to find.
+For some designers the goal might be for every player to find their secret, while other designers may wish for a community effort to be necessary for it's discovery.
+These community type secrets are sometimes called ARGs or Augmented Reality Games, and often involve player involvement outside the game itself.
+Let's look at an individual player focused secret/easter egg sequence in the physics based Rogue-lite Noita, a game well know for obtuse but interesting secrets in it's unusually vast map.
+Again, the goal with this secret is for players to find it on their own, even if it takes them a while to do so.
+
+[Noita Graph](/assets/godot/noita_secret/Epistagraph.html){:target="blank"}
+
+Using this tool we can notice some of the pain points of a secret like this and, if players discovering this on their own is a goal of ours, find ways to onboard players who might feel lost.
+The first thing I noticed was the interaction with a system outside of the secret itself.
+The broken wand is an unrelated item, but it does teach the player to hold on to broken items, and if they figure out the wand, the affordances of that item transfer to any items with the "broken" label.
+The real pain point comes in the form of the anvil location and the required biome for each step in the chain.
+For the anvil location I think it's fine to have the player explore and find it on their own, but the room itself should probably be more prominent, and hint to the player that broken items can be taken there.
+Perhaps this could be done by matching the visual effect we see on broken wands to something in the anvil room.
+The biome requirement is less egregious, but still important.
+I would likely solve it by adding item description text that beckoned the player to explore "a little further down" so that they have a general idea of where to expect the next event in the chain to happen.
+
+So we’ve seen what the tool can do, but you may be asking exactly what it’s all for.
+Well in a nutshell it can be used to target an area of your game that is missing tutorialization or expects too much of your players.
+I would say that it’s more useful as a proof of concept though.
+It’s not too hard to keep a rough idea of what your knowledge map looks like in your head and most pain points will come up in playtesting.
+The hard part is targeting what to fix after seeing what the playtesters are struggling with, and I think just having an understanding of how knowledge flows in your game should be enough to work through any problems.
+I myself think it will be particularly useful for mapping out ARGs or secrets in games, as it’s very easy to get in a habit of making a linear sequence if you don’t plan from the start, and adding in branching paths and red herrings adds a lot of interest to a secret or ARG if done well.
+
+In fact, while working on this project I decided to make a short ARG style puzzle myself involving 3 images and a text file.
+From the short playtests I've done I would say it's pretty hard, but if you keep in mind the mental map of inputs and outputs of player knowledge you might be able to find the password.
 
 <img src="/assets/img/epistagraph/word_search.png" alt="drawing" width="400"/>
 
@@ -20,25 +104,14 @@ What I’ve done is create a tool that lets you map out the player’s progressi
 
 [Clues.txt](/assets/img/epistagraph/clues.txt){:target="blank"}
 
-If you want to solve it do so before I spoil it ahead. Without further ado, here is the diagram I made in Epistagraph to visualize this puzzle system:
+If you're stumped about where to start I would go with the word search, then think about how your answers to each puzzle could be used to solve another one.
+
+I designed this puzzle system using this tool, so here is my mapping of the puzzle before I started working on the details of each element.
 
 [Word Search Graph](/assets/godot/word_search/Epistagraph.html){:target="blank"}
 
-There are two main takaways from seeing the puzzles visualized like this. The first is the structure of the puzzles and information flow. This style of puzzle is somewhat linear, but reuses most of it's elements for more than one thing, especially the word search, which was somewhat of a focal point in this puzzle system. As we will see later this can be changed to make lots of different configurations, and is often tied in heavily with the level design when placed in more traditional games. The more complex this web of connections is, the more complicated your puzzle system is likely to be, so keep that in mind and make sure to allow lots of differnt sources of the same knowlege if your game is big and it's not likely the player will see all of it in one go.
-
-The other thing to take note of is the "knowlege required:" field, and how some of them say things like "general: ..." and have no connection attatched. These are known as entry points, and point out pieces of information your player will be expected to know from outside the game or area you are analyzing. This is important, as players will want to apply what they know in the real world to the game, but it also serves as a way of tracking difficulty in your puzzles. If your puzzles require a lot of really obscure facts, or skills the player is not likely to know they need going in, then your game might be way too hard. An example of this can be found in the early puzzle design of zork, which has a puzzle that requires knowledge of baseball, something players of a fantasy role playing game are likely to be confused by.
-
-To show how this can be used more broadly I have included an analysis of two games that I love, The Witness and Noita. One does it’s secret discovery very well, and the other… well it has some issues. Spoilers ahead but I will constrain my scope for the sake of my time and so that I don’t take away anyone’s discovery of these games.
-
-[Witness Graph](/assets/godot/witness_desert/Epistagraph.html){:target="blank"}
-
-While making this graph for the desert area I noticed that it seemed like this area was designed for a specific experience. All the nodes expanded on past ideas, not just linearly, but also using lessons from puzzles several steps behind. The most interesting thing I noticed was how many outputs led into the secrets for the area. In my experience playing the game I found that all this was not enough to show me the secret on it’s own. It was more like the experience you get in a mystery novel or movie where once you understand the truth at the end of the book, you go back and find all the clues that could have tipped you off. It can be quite satisfying if done well, and even if you give away a little too much you can often make the player feel smart anyways.
-
-[Noita Graph](/assets/godot/noita_secret/Epistagraph.html){:target="blank"}
-
-For the noita secret quest line we can see that there are far more obscure and obtuse knowledge checks, some of which would probably only be solved by trail and error, which is the least interesting puzzle solving method to me. Knowledge of the anvil room is probably the biggest culprit here, though I think the biome you need to go to next would be nice if it was signposted better, even though they are in sequential order. One of the cooler ideas though was having the broken wand passively teach you about this mechanic, allowing players to apply knowledge from outside the questline. I would need to check the item descriptions, but if the broken wand told you where to find the anvil I feel like most of my problems would be resolved. That and a note telling you that the portal needed to be fired at a certain location. I feel like I would try to use my spell crafting knowledge to solve this to no avail, a knowledge base that I think is underutilized in this game’s secrets thus far.
-
-So we’ve seen what the tool can do, but you may be asking exactly what it’s all for. Well in a nutshell it can be used to target an area of your game that is missing tutorialization or expects too much of your players. I would say that it’s more useful as a proof of concept though. It’s not too hard to keep a rough idea of what your knowledge map looks like in your head and most pain points will come up in playtesting. The hard part is targeting what to fix after seeing what the playtesters are struggling with, and I think just having an understanding of how knowledge flows in your game should be enough to work through any problems. I myself think it will be particularly useful for mapping out ARGs or secrets in games, as it’s very easy to get in a habit of making a linear sequence if you don’t plan from the start, and adding in branching paths and red herrings adds a lot of interest to a secret or ARG if done well.
+While this puzzle is somehow both abstract and literal about it's interpretation of knowledge based progression, it serves as a good example of the kinds of looping and double backing we see is so common in other systems.
+The major difference being that each piece of knowledge the player collects really is unique and can't be recycled infinitely, at least not in any game I've seen yet.
 
 There are also a number of adjacent technologies that the astute among you might be dying to tell me about, so let me address the ones I’m already aware of. First up is the idea of a concept map, which is basically a diagram that shows information dependencies. An example might be a diagram of all the knowledge needed to pass a physics course, with many of the nodes needing information from another node, creating a hierarchy of information. This is pretty close to what I’ve done, but it doesn’t take into account breakpoints where outside knowledge is used, and also doesn’t separate the knowledge itself from the thing that creates it, which in the case of a puzzle is an important distinction. Two puzzles, or even a puzzle and some other experience like an object the player notices in the world, can both contribute to the same knowledge input.
 
