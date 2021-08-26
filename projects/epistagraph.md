@@ -38,7 +38,7 @@ You can basically use it to map out how and where your player might acquire know
 Let's move away from the abstract and into examples.
 Here is an example of the industry standard text popup tutorials we see in many games nowadays.
 
-
+[Tutorial Graph](/assets/godot/tutorial/Epistagraph.html){:target="blank"}
 
 There are two main takeaways from seeing the player learning visualized like this.
 The first is the structure of the puzzles and information flow.
@@ -56,14 +56,14 @@ The player plays a level, then is told about a mechanic for the upcoming level b
 For linear games this can be fixed fairly easily with a more interactive tutorial, like by showing the mechanic affecting an npc or by allowing player experimentation in a safe environment, but for more open ended games this might not be an option.
 Let's look at the structure of puzzle knowledge in a game like The Witness.
 
-
+[Witness Graph](/assets/godot/witness/Epistagraph.html){:target="blank"}
 
 This is, of course, a very zoomed out look at the knowledge flow in the game, but provides an interesting look at an intended experience the designer put in.
 As you can see the town in the middle, which is accessible and often arrived to early in the game, has the most knowledge requirements of any area in the game.
 This means that the player is likely to learn early on that they sometimes have to leave a puzzle and come back to solve it later.
 A similar process happens even at a smaller scale, let's take a look at a single area in The Witness, though I will remain vague so as to not ruin the experience for new players.
 
-[Witness Graph](/assets/godot/witness_desert/Epistagraph.html){:target="blank"}
+[Witness Desert Graph](/assets/godot/witness_desert/Epistagraph.html){:target="blank"}
 
 The key thing to point out here is that the "outside: secrets" knowledge is likely to be the deciding factor in if they solve the secret puzzles of the desert.
 That being the case we might notice a similar narrative from before forming, where the player is confronted with artifacts of a puzzle they don't quite have the knowledge for, then they come back later and are struck at how many clues were there the whole time.
