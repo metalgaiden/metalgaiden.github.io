@@ -11,7 +11,7 @@ I am a game designer and programmer with a B.S. in Computer Science: Game Design
 
 I try to play a wide variety of games across different genres to better understand what makes a game engaging and worth playing. My favorite games are fighting games, but I also play rogue-likes/lites, role playing games, platformers, puzzle games, tabletop games, really anything that delivers a quality gaming experience.
 
-## What I'm looking for:
+## My Design Philosophy
 I’m interested in working on games that meaningfully push gaming forward as a medium, which can mean a number of things to different people. So let me be a little more specific.
 
 I tend to think of there being two main ways a game can push the innovative boundaries. The first is to add elements into games that have not been there before. This approach takes elements from other disciplines or personal experience and injects them into a game, pulling non-gaming elements into the gaming experience. An example of this is Disco Elysium, which takes elements from politics, philosophy and psychology in addition to it’s more conventional RPG roots.
