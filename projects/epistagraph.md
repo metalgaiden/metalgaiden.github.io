@@ -5,7 +5,7 @@ permalink: /projects/epistagraph/
 ---
 Epistagraph is a tool for designing and diagnosing knowledge based progression systems.
 It allows you understand the flow of information if your game as well as designing secrets and puzzles that are dynamic and intuitive.
-It can be found in a pre-alpha state on github [here](https://github.com/metalgaiden/epistagraph).
+It can be found on github [here](https://github.com/metalgaiden/epistagraph).
 
 First of all we might want to nail down what a progression system is in games.
 The most common form we find I will dub "extrinsic progression".
