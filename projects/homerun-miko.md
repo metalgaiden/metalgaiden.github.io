@@ -26,7 +26,7 @@ Homerun Miko is a puzzle game, and while what makes a good puzzle game can be ha
 
 While this might be controversial, I don't like to focus on how the player feels in a puzzle game. I don't need to make them feel like they are on an adventure, they ARE on an adventure. At the end of the game they can truly say that they discovered something, even if it was only the interaction of a few simple mechanics.
 
-The primary actions given to the player are a Hit, a Grab, and movement of the player and a secondary spirit character. This, when combined with the obstacles detailed below combined to make 20+ puzzles that all said something interesting about the puzzle space of the game.
+The primary actions given to the player are a Hit, a Grab, and movement of the player and a secondary spirit character. This, in combination with the obstacles detailed below, made 20+ puzzles that all said something interesting about the puzzle space of the game.
 
 The obstacles were based on one of the most basic mechanics in games, collision. This mechanic is often under explored in non-puzzle games, but many puzzle games have pushed it to it's limit. While I don't think Homerun Miko is on par with some of the greats, it does explore collision in a somewhat unique way.
 
