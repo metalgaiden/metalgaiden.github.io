@@ -30,15 +30,25 @@ The primary actions given to the player are a Hit, a Grab, and movement of the p
 
 The obstacles were based on one of the most basic mechanics in games, collision. This mechanic is often under explored in non-puzzle games, but many puzzle games have pushed it to it's limit. While I don't think Homerun Miko is on par with some of the greats, it does explore collision in a somewhat unique way.
 
+<img src="/assets/img/miko/floor.png" alt="drawing" height="200"/>
+
 The first and most basic collisions is no collision at all. The floor tiles allow the player, the spirit, and the bunny enemies to traverse with no issues.
 
+<img src="/assets/img/miko/wall.png" alt="drawing" height="200"/>
+
 Next is that wall tiles, which are the polar opposite of the floor. They block movement from the player, the spirit, and enemies, though thrown enemies will bounce off of them, creating some interesting navigation puzzles.
+
+<img src="/assets/img/miko/onoffwall.png" alt="drawing" height="200"/>
 
 To round out the objects in the first area we have on/off walls, that toggle between raised and lowered every time you hit an enemy into an altar. This forms the basic gameplay loop of knocking enemies into altars, and then exiting the level through the now open door.
 
 These three elements can go a long way, and I was able to make a good portion of the puzzles with just these, but there are a lot more possibilities to explore.
 
+<img src="/assets/img/miko/water.png" alt="drawing" height="200"/>
+
 In the second area you are confronted with water, which allows the spirit to pass through, but not the player. Thrown enemies can also pass over, but falling in resets their position.
+
+<img src="/assets/img/miko/mist.png" alt="drawing" height="200"/>
 
 In the third area you find a strange mist, that allows the player to walk, but not the spirit. Enemies are unaffected by the mist.
 
