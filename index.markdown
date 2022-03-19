@@ -23,6 +23,11 @@ My primary interests in games are those that leave the player with more than the
 ## Projects:
 Here are some of the projects I've worked on.
 
+Lead Designer
+[Harmony Train](/projects/harmony-train)
+
+[<img src="/assets/img/thumbnails/harmony-train.png" alt="drawing" width="400"/>](/projects/harmony-train)
+
 Gameplay/Level Designer
 [Homerun Miko](/projects/homerun-miko)
 
