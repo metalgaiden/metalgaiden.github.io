@@ -31,11 +31,17 @@ To do so I gave each player 3 possible actions: Jump, Shoot and Grapple.
 
 Jumping allows you to gain height on your opponent, and it's also the best defensive action you can take to avoid being shot.
 
+<img src="/assets/img/chokeslam/jump.gif" alt="drawing" height="400"/>
+
 Shooting allows you to do small amounts of damage to your opponent, provided you are above them at the time.
 With just these two it's a game of racing to higher ground to pepper your opponent with shots.
 
+<img src="/assets/img/chokeslam/shoot.gif" alt="drawing" height="400"/>
+
 Grapple completes the package, allowing you to slam your opponent to the ground, dealing damage based on the height you drop them from.
 In contrast to Shooting, you can only grapple if you are below your opponent.
+
+<img src="/assets/img/chokeslam/grapple.gif" alt="drawing" height="400"/>
 
 The relationship between these abilities is similar to rock paper scissors, but it's closer relative is the game [Standoff](https://www.ludocity.org/wiki/Standoff_%28hand_game%29).
 The end result of these mechanics is that you want to be just above your opponent so that you can shoot them until they jump to dodge, where you can then switch to grappling.
@@ -83,9 +89,19 @@ Vertical layering involves playing all stems together, but fading in and out sec
 I used vertical layering to make the guitar, choir, and strings fade in and out depending on how high you were in the match.
 Here is what it sounds like to go to the top and come back with only these elements enabled.
 
+/assets/audio/vertical-fades.wav
+
 Horizontal layering is when you transition from one stem to the next, usually at the end of a measure.
 I used horizontal layering to raise the intensity of the drum section as the match progressed, waiting until the end of the current drum loop to start the next.
+
+/assets/audio/drums-evolution.wav
+
 I also made the bassline change intensity depending on how high you were in the map, but did not force the change until the current bass line ended.
 
+/assets/audio/bass-evolution.wav
+
+And here's what it sounds like all together.
+
+/assets/audio/chokeslam.wav
 
 {% include open-embed.html %}
