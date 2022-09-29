@@ -7,50 +7,31 @@ layout: default
 
 ![Banner](/assets/img/bg-masthead.jpg)
 <h2> About me: </h2>
-I am a game designer and programmer with a B.S. in Computer Science: Game Design at University of California Santa Cruz. I like video games, as you might expect, but I also enjoy rock climbing, martial arts (judo, bjj), and analytic philosophy.
+Hi, I’m Eli and I’m a game design generalist with skills in programming, design, research and sound. My goal is to make games that are as unique as they are interesting. Games are more interesting when they have vision and voice behind them, so I hope to make games that I’m the most uniquely situated to make.
 
-I try to play a wide variety of games across different genres to better understand what makes a game engaging and worth playing. I enjoy fighting games, puzzle games and rogue-lites, but genre is usually not the main determinant for my level of interest in a game. I'm looking mostly for games that challenge my assumptions and theories about what games are and should be, as I believe that makes my assessment of games more grounded and informed.
+If you’d like to see my ability to design clever puzzles and compose music, I would check out [Homerun Miko](/projects/homerun-miko). It was my senior capstone game for UC Santa Cruz and I guarantee you’ll find the puzzles interesting and unique, with plenty of “aha!” moments to be had.
 
-## My Design Philosophy
-If fiction is about stories, then fiction writers need to be good storytellers. Similarly non-fiction, which is about facts or ideas, requires a combination of research and rhetorical skill. Games are about actions, and as such the primary aim of good design is in the art of suggestion.
+If you want to see my programming ability I would take a look at [Choke Slam](/projects/choke-slam). It’s a one on one fighting game made in the Godot engine, designed and mostly programmed by me. While it may look simple on the surface, dialing in fighting game mechanics to have both depth and game feel is quite the challenge. It requires a second player, but if you get the chance you'll find it's quite fun and has a good amount of depth for it's constrained rule set.
 
-Sometimes this means making it abundantly clear what the player should do or feel, other times it means withholding a correct answer to allow the player to find it themselves. Either way, suggestion is the primary tool in a good game designer's tool belt.
-
-I also believe strongly that designers have a responsibility to explore the possible space of game designs. They should try new ideas that push at the boundaries of what already exists. This doesn't mean designers should make bad games on purpose, just that the best ideas sit somewhere between where we are and where we could be.
-
-My primary interest in games is in the way they interact with the player. Specifically how the player forms a mental model of the game in their head, and how the game plays with and responds to this model. My linkedin, github and email are linked below and my resume can be downloaded [here](/assets/pdf/Resume.pdf).
+If you’re curious what I mean by research I would take a look at [Harmony Train](/projects/harmony-train). It’s quite the hard game to wrap your head around, but the general idea is to make music into a card game. You can play cards from your hand to create chord sequences, and then the game scores you based on its own chord progression algorithm. It’s certainly not to everyone’s taste, but in making and play testing it I learned a lot about how we learn when interacting with a game.
 
 ## Projects:
 Here are some of the projects I've worked on.
 
 Lead Designer
-[Harmony Train](/projects/harmony-train)
-
-[<img src="/assets/img/thumbnails/harmony-train.png" alt="drawing" width="400"/>](/projects/harmony-train)
-
-Gameplay/Level Designer
 [Homerun Miko](/projects/homerun-miko)
 
 [<img src="/assets/img/thumbnails/homerun-miko.png" alt="drawing" width="400"/>](/projects/homerun-miko)
 
-Tool Designer/Programmer
-[Epistagraph](/projects/epistagraph)
+Lead Designer/Programmer
+[Choke Slam](/projects/choke-slam)
 
-[<img src="/assets/img/thumbnails/epistagraph.png" alt="drawing" width="400"/>](/projects/epistagraph)
+[<img src="/assets/img/thumbnails/choke-slam.png" alt="drawing" width="400"/>](/projects/choke-slam)
 
-Augmented Reality Puzzle Designer
-[Folderman](/projects/folderman)
+Lead Designer/Programmer
+[Harmony Train](/projects/harmony-train)
 
-[<img src="/assets/img/thumbnails/folderman.png" alt="drawing" width="400"/>](/projects/folderman)
+[<img src="/assets/img/thumbnails/harmony-train.png" alt="drawing" width="400"/>](/projects/harmony-train)
 
-Gameplay Designer
-[Attack/Defend](/projects/attack-defend)
-
-[<img src="/assets/img/thumbnails/attack-defend.png" alt="drawing" width="400"/>](/projects/attack-defend)
-
-Narrative Designer
-[The Performance](/projects/the-performance)
-
-[<img src="/assets/img/thumbnails/the-performance.png" alt="drawing" width="400"/>](/projects/the-performance)
 
 {% include open-embed.html %}

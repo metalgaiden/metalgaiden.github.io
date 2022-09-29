@@ -24,7 +24,7 @@ Homerun Miko is a puzzle game, and while what makes a good puzzle game can be ha
 
 3. The game should be interesting to explore. The mechanics should be simple but hint at a hidden depth that begs the player to dive in deeper.
 
-While this might be controversial, I don't like to focus on how the player feels in a puzzle game. I don't need to make them feel like they are on an adventure, they ARE on an adventure. At the end of the game they can truly say that they discovered something, even if it was only the interaction of a few simple mechanics.
+In contrast to other genres, the player experience can often take a backseat to the mechanics that the player is exploring. It's pretty hard to manufacture the feeling of discovery without actually providing mechanics that are worth discovering. To that end I focused on constraining my move set to something simple and teasing out the most I could by combination and reorganization.
 
 The primary actions given to the player are a Hit, a Grab, and movement of the player and a secondary spirit character. This, in combination with the obstacles detailed below, made 20+ puzzles that all said something interesting about the puzzle space of the game.
 
