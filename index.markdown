@@ -13,7 +13,7 @@ If you’d like to see my ability to design clever puzzles and compose music, I 
 
 If you want to see my programming ability I would take a look at [Choke Slam](/projects/choke-slam). It’s a one on one fighting game made in the Godot engine, designed and mostly programmed by me. While it may look simple on the surface, dialing in fighting game mechanics to have both depth and game feel is quite the challenge. It requires a second player, but if you get the chance you'll find it's quite fun and has a good amount of depth for it's constrained rule set.
 
-If you’re curious what I mean by research I would take a look at [Harmony Train](/projects/harmony-train). It’s quite the hard game to wrap your head around, but the general idea is to make music into a card game. You can play cards from your hand to create chord sequences, and then the game scores you based on its own chord progression algorithm. It’s certainly not to everyone’s taste, but in making and play testing it I learned a lot about how we learn when interacting with a game.
+If you’re curious what I mean by research I would take a look at [Gordian](/projects/gordian). It's my latest experiment in education game design, and tries to give players a better understanding of knots. It took quite a bit of research to arrive on a design that is both functional and interesting to the player, but I'm happy with how cleverly I tied it together.
 
 ## Projects:
 Here are some of the projects I've worked on.
@@ -29,9 +29,8 @@ Lead Designer/Programmer
 [<img src="/assets/img/thumbnails/choke-slam.png" alt="drawing" width="400"/>](/projects/choke-slam)
 
 Lead Designer/Programmer
-[Harmony Train](/projects/harmony-train)
+[Goridan](/projects/goridan)
 
-[<img src="/assets/img/thumbnails/harmony-train.png" alt="drawing" width="400"/>](/projects/harmony-train)
-
+[<img src="/assets/img/thumbnails/gordian.png" alt="drawing" width="400"/>](/projects/gordian)
 
 {% include open-embed.html %}
