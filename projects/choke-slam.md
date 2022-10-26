@@ -10,7 +10,7 @@ Most of the coding, music, and visuals in game were created in a 3 week period i
 I filled a number of roles for this project, taking the lead on both the design and programming, as well as covering sound design and music.
 Wearing so many hats can be overwhelming, but the creative control allowed me to take risks and iterate faster than any of my previous projects.
 
-[Itch.io page](https://chonkershq.itch.io/chokeslam)
+<iframe src="https://itch.io/embed/1698283?linkback=true&amp;bg_color=f7ccc5&amp;fg_color=222222&amp;link_color=7e10dc&amp;border_color=8d3ac7" width="552" height="167" frameborder="0"><a href="https://chonkershq.itch.io/chokeslam">Choke Slam by Chonkers HQ</a></iframe>
 
 https://youtu.be/iq-3eFvHILg
 
