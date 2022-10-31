@@ -15,7 +15,7 @@ Hi, I’m Eli and I’m a game design generalist with skills in programming, des
 
 [<img src="/assets/img/thumbnails/gordian.png" alt="drawing" width="400"/>](/projects/gordian)
 
-My most recent work, which displays my ability to solve complex problems and also make interesting and engaging puzzle systems, is [Gordian](/projects/gordian). It's a game about tying knots and I did the programming, desing, sound effects and music. It shows what a generalist can do when touching every piece of the game making pie. I'm really proud of how I brought this one together and I would be honored if you would give it a try.
+My most recent work, which displays my ability to solve complex problems and also make interesting and engaging puzzle systems, is [Gordian](/projects/gordian). It's a game about tying knots and I did the programming, design, sound effects and music. It shows what a generalist can do when touching every piece of the game making pie. I'm really proud of how I brought this one together and I would be honored if you would give it a try.
 
 <br/>
 
