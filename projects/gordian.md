@@ -7,6 +7,8 @@ Taking inspiration from The Witness, Braid, Tunic, and many other great games, G
 
 The goal of the game is to help players learn about topology in a fun way by exploring the rule set Gordian uses to represent it.
 
+This project was made for the 2022 Project Revival Jam 2 and received [1st place in the Reason category](https://itch.io/jam/revival-jam-2/results/reason-).
+
 <iframe src="https://itch.io/embed/1759770?linkback=true&amp;bg_color=9a9da0&amp;fg_color=1a1d20&amp;link_color=fcb75a&amp;border_color=84898d" width="552" height="167" frameborder="0"><a href="https://chonkershq.itch.io/gordian">Gordian by Chonkers HQ</a></iframe>
 
 ## Sound
