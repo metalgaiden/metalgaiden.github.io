@@ -9,6 +9,8 @@ layout: default
 <h2> About me: </h2>
 Hi, I’m Eli and I’m a game designer with skills in programming, design, music and sound. My goal is to make games that are as unique as they are interesting. Games are more interesting when they have vision and voice behind them, so I hope to work on games that I’m uniquely situated to make.
 
+Below are my game projects, click on them to read a detailed breakdown of the work I did on each one.
+
 <br/>
 
 ## Games:

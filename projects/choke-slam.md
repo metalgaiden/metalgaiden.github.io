@@ -27,7 +27,7 @@ In a traditional fighting game like street fighter the most interesting distance
 Getting players to want to move there is simple, reward them for being able to punish whiffed moves from their opponent.
 Here is a brief primer on whiff punishes for those unfamiliar with fighting games.
 
-https://youtu.be/G-Rk4RJorLU
+[https://fightinggameguide.com/whiffpunish.html](https://fightinggameguide.com/whiffpunish.html)
 
 I wanted to design the mechanics of Choke Slam to reward you for being above your opponent, but also give you some reward for keeping you opponent in a sweet spot just below you.
 To do so I gave each player 3 possible actions: Jump, Shoot and Grapple.
@@ -49,12 +49,13 @@ In contrast to Shooting, you can only grapple if you are below your opponent.
 The relationship between these abilities is similar to rock paper scissors, but it's closer relative is the game [Standoff](https://www.ludocity.org/wiki/Standoff_%28hand_game%29).
 The end result of these mechanics is that you want to be just above your opponent so that you can shoot them until they jump to dodge, where you can then switch to grappling.
 Because of the quick timing of each move you'll have to predict when the opponent will jump past you, and that's where the mind game begin.
-Below is a flowchart showing all the moves and their timings.
+
+I created this diagram to show the artist the specific timing of all of the animations. Having these specified beforehand made development a lot smoother.
 
 <img src="/assets/img/chokeslam/animations.png" alt="drawing" height="400"/>
 
 ### Predictive aiming
-In order to make this game work with controllers, the standard controller for fighting games, I had to get creative with the aiming system.
+In order to make this game work with controllers, the standard way to play most fighting games, I had to get creative with the aiming system.
 I chose to try implementing an auto aim feature that took into account the other player's velocity when you aim at them, so that you will catch them if they keep going that direction.
 Lets take a look at how shooting was implemented, as it's mostly the same story for grappling.
 
