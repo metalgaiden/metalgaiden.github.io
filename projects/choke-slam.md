@@ -4,7 +4,7 @@ title: "Choke Slam"
 permalink: /projects/choke-slam/
 ---
 Choke Slam is a one on one fighting game with a unique focus on vertical gameplay.
-It was created with my team from UCSC, as our first ambitious non game-jam project.
+It was created with my team of around 5 people, as our first ambitious non game-jam project.
 Most of the coding, music, and visuals in game were created in a 3 week period in order to deliver on the proof of concept.
 
 I filled a number of roles for this project, taking the lead on both the design and programming, as well as covering sound design and music.
@@ -76,8 +76,8 @@ At 15 Frames the player stops shooting and begins to rotate back to their defaul
 The key point this adds to strategy is that the prediction does not account for any additional moves performed in the 10 frame startup window.
 This means you can perform an action such as a jump during this time, forcing your opponent to miss.
 
-<a href="#dynamic_music"></a>
-## Dynamic Music
+<a href="#adaptive_music"></a>
+## Adaptive Music
 Because Choke slam is a vertical game, and the height the players are at changes the gameplay significantly, I wanted to make music that changed with the height as well.
 
 In my research I found that most dynamic music revolves around layering "stems".
