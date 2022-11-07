@@ -127,9 +127,27 @@ Once again I'm trying to keep it pretty simple. The solution to allow the music 
 
 Another thing I noticed in designing the music was that the strings and ocean sounds were almost impossible to tell when they were reversed, this means that you won't notice the reversing music until at least a good ways in. It's this kind of subtlety that games like this need, in order to turn the volume down on everything non essential.
 
-For sound design my process was to add simple sounds to as many places as possible, to maximize the amount of information conveyed. Each sound was a collection of 2-3 sound files, picked at random and pitched slightly up or down.
+For sound design I wanted each sound to be unique, and layer on top of each other well when multiple things happen at once. Each sound was a collection of 2-3 sound files, picked at random and pitched slightly up or down.
 
-Sounds play for placing rope, undoing placements, tying a knot, tightening a knot, leveling up and clicking on UI. The sound for tying a knot is layered to be hidden if you also tighten a knot, but is noticeable enough to clue players in if they tie a knot they have done before.
+First was the sound of placing rope. I used a simple blip sound with pitch variation on each placement.
+
+/assets/audio/gordian/place.wav
+
+Next was the undo sound, for which I just reversed the placement sound and lowered the volume a bit to sit better in the mix.
+
+/assets/audio/gordian/undo.wav
+
+When you tie a legitimate knot, a rope drag sound plays. Since you can only tie knots after placing, it needed to sit well with the placement sound.
+
+/assets/audio/gordian/tie.wav
+
+If you tie a new knot, or tie a knot smaller than you have before, a tightening rope sound will play. In this case it is layering on top of the placement and tie sounds.
+
+/assets/audio/gordian/tighten.wav
+
+Lastly, if you happen to level up because of a knot you tied you will hear some chimes that remind me of ship bells.
+
+/assets/audio/gordian/level.wav
 
 ## UX Design
 When starting work on the game I wanted to bring the art in pretty late in the process. Because of the design of the puzzles I had to have a very clear idea of what I needed before the first puzzle frame was drawn.
