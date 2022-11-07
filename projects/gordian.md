@@ -11,23 +11,7 @@ This project was made for the 2022 Project Revival Jam 2 and received [1st place
 
 <iframe src="https://itch.io/embed/1759770?linkback=true&amp;bg_color=9a9da0&amp;fg_color=1a1d20&amp;link_color=fcb75a&amp;border_color=84898d" width="552" height="167" frameborder="0"><a href="https://chonkershq.itch.io/gordian">Gordian by Chonkers HQ</a></iframe>
 
-## Sound
-Sound is probably the first thing you notice when you open a game and I wanted to make sure the sound design was as polished and unobtrusive as possible to make sure players are willing to spend time and effort exploring my systems.
-
-The music is pretty simple. It layers sound ocean sounds, strings, and synth bells that remind me of Blade Runner. The only thing that's special with the music is that it runs backwards when you undo your moves.
-
-/assets/audio/gordian/gordian.wav
-
-Once again I'm trying to keep it pretty simple. The solution to allow the music to run backwards was just to have two versions of the main song, one forward and one backwards. When you press the undo key it will play the backwards version at "full song length" - "current song position". I also added a bit of buffer to make sure the player couldn't freeze up the music. It sounds cool, but was just a little too distracting.
-
-/assets/audio/gordian/gordian-reversed.wav
-
-Another thing I noticed in designing the music was that the strings and ocean sounds were almost impossible to tell when they were reversed, this means that you won't notice the reversing music until at least a good ways in. It's this kind of subtlety that games like this need, in order to turn the volume down on everything non essential.
-
-For sound design my process was to add simple sounds to as many places as possible, to maximize the amount of information conveyed. Each sound was a collection of 2-3 sound files, picked at random and pitched slightly up or down.
-
-Sounds play for placing rope, undoing placements, tying a knot, tightening a knot, leveling up and clicking on UI. The sound for tying a knot is layered to be hidden if you also tighten a knot, but is noticeable enough to clue players in if they tie a knot they have done before.
-
+<a href="#design"></a>
 ## Design
 This game took on a lot of iterations before arriving at the current version. It started as a physics platform in need of a knot tying system, only for me to realize that a knot tying system had more than enough complexity for it's own game.
 
@@ -47,6 +31,7 @@ Taking inspiration from the puzzle games I already love I decided to focus the k
 
 In order to include knots that aren't traditional knots I decided to start messing with the affordances. This allowed me to justify strange knot topologies, and let me show off some of the most interesting knot puzzles I could find. Some of these knots can be found below in the art section.
 
+<a href="#programming"></a>
 ## Programming
 There were several programming challenges I faced when working on Gordian, but the first and most pressing issue was how to recognize knots. Obviously knots are 3 dimensional objects, but in the field of topology they commonly represent knots with 2 dimensional diagrams that show the positions of crosses over and under.
 
@@ -62,6 +47,25 @@ After dealing with knot detection, the next challenge I faced was saving this da
 
 <img src="/assets/img/gordian/data.png" alt="drawing" height="400"/>
 
+<a href="#sound"></a>
+## Sound
+Sound is probably the first thing you notice when you open a game and I wanted to make sure the sound design was as polished and unobtrusive as possible to make sure players are willing to spend time and effort exploring my systems.
+
+The music is pretty simple. It layers sound ocean sounds, strings, and synth bells that remind me of Blade Runner. The only thing that's special with the music is that it runs backwards when you undo your moves.
+
+/assets/audio/gordian/gordian.wav
+
+Once again I'm trying to keep it pretty simple. The solution to allow the music to run backwards was just to have two versions of the main song, one forward and one backwards. When you press the undo key it will play the backwards version at "full song length" - "current song position". I also added a bit of buffer to make sure the player couldn't freeze up the music. It sounds cool, but was just a little too distracting.
+
+/assets/audio/gordian/gordian-reversed.wav
+
+Another thing I noticed in designing the music was that the strings and ocean sounds were almost impossible to tell when they were reversed, this means that you won't notice the reversing music until at least a good ways in. It's this kind of subtlety that games like this need, in order to turn the volume down on everything non essential.
+
+For sound design my process was to add simple sounds to as many places as possible, to maximize the amount of information conveyed. Each sound was a collection of 2-3 sound files, picked at random and pitched slightly up or down.
+
+Sounds play for placing rope, undoing placements, tying a knot, tightening a knot, leveling up and clicking on UI. The sound for tying a knot is layered to be hidden if you also tighten a knot, but is noticeable enough to clue players in if they tie a knot they have done before.
+
+<a href="#art"></a>
 ## Art
 When starting work on the game I wanted to bring the art in pretty late in the process. Because of the design of the puzzles I had to have a very clear idea of what I needed before the first puzzle frame was drawn.
 

@@ -16,6 +16,7 @@ I also composed all the music for the game.
 
 https://youtu.be/pxyQMxoKhJY
 
+<a href="#design"></a>
 ## Design
 Homerun Miko is a puzzle game, and while what makes a good puzzle game can be hard to define, it boils down to a few main components.
 1. The game should teach you as you play. Figuring out mechanics is a large part of the progression the player goes through.
@@ -58,10 +59,8 @@ In my play testing I also noticed a type of collision appear that I had not inte
 
 There are probably other combinations of collisions to explore, especially if more and more elements are added on top, but I think this game was a good exploration of the mechanics I found most easily communicated to the player. I am especially proud of the lack of an explicit tutorial. The characters in the game explain some basic movement mechanics, but other than that the actions of the player are mostly suggested through good level design and affordances that the player might already have about how water, or the basics of baseball might work. I surprised myself with how much I got out of the base mechanics and I'm happy with the level of interest that the puzzle game could offer it's players.
 
-## Highlights
-Here are a few interesting challenges we faced during the development of Homerun Miko. Below them is a post mortem on the game as a whole.
-
-### Linear algebra to the rescue
+<a href="#math"></a>
+## Linear algebra to the rescue
 At one point during the game's development we ran into an issue bouncing enemies off the walls. What we didn't realize at first was that the isometric perspective impacts these results quite a bit, and it took a fair bit of intuition and critical thinking to get past it.
 
 To start off let me explain the basics of calculating a reflection on a wall from a top down perspective. If you throw an enemy at a wall, it's velocity vector simply needs to be flipped over the normal, which is the line perpindicular to the object surface. In the case of 2D this just means the line perpindicular to the wall line.
@@ -96,7 +95,8 @@ After consulting with a fellow math nerd we came up with this solution: Basicall
 
 There's a bit more to it since the normal had to be flipped by 90 degrees before and after transforming, but once we had the intuition of what to do, the rest came a lot easier.
 
-### Designing in meat space
+<a href="#tools"></a>
+## Designing in meat space
 I tried a lot of technologies to design the levels in this game, but the one that I settled on was to use a board from the game Go and salvaged game pieces from several other games to recreate the levels in 3D.
 
 <img src="/assets/img/miko/board_level.png" alt="drawing" width="400"/>
@@ -104,20 +104,5 @@ I tried a lot of technologies to design the levels in this game, but the one tha
 There's a couple reasons I chose this approach, the first of which being that it's very malleable. If I designed on paper, which I tried for a bit, then my designs would have to be erased and rewritten each time I wanted to move a shrine a little to the left. Maybe I'm just used to working digitally but being able to move stuff around or undo what I just did immediately is a big plus for me.
 
 The other reason is the perspective. When the puzzles are on a grid like they are it would be easy to design them from a straight perspective, but I wanted to see what each level would look like before I sent it off. On the other hand putting it at a slant really messes with how my brain thinks of putting the pieces together. Ultimately I settled on an approach that let me do both, designing on an orthogonal grid and then standing up and tilting the board to see what it would look like in game.
-
-## Post Mortem
-Homerun Miko was my first time doing level design, and my first time working on gameplay design for such a big project. It was also unique in the fact that I came to the team after some pre-production had already been done, so I had to fit myself into a preexisting team and figure out what they would need as we went along.
-
-When I first got to the team we didn’t have a designated designer. As a result the game kind of felt like a grab bag of different ideas. There were some puzzles that were a little too simple to really call a puzzle, some ideas about how combat might work, but nothing really cohesive. My first task as a designer was to think about how the combat system might fit in, and I’ll admit I fell into the same sorts of naive design traps. My first foray was a combat system based heavily off of fighting games, a genre that I think really makes each action impactful and that other genres could learn alot from.
-
-Problems started to arise pretty early on, and after a few playtests me and the programming team sat down for a long design discussion about what this game should be. The feedback we got was that the bat was fun to swing… and that’s about it. The other systems were too in depth, especially in an environment where the player isn’t being tested anywhere close to their limit. And the puzzles felt completely disconnected. We were making two games when we weren’t even sure we could make one.
-
-So we simplified, we looked at the verbs that a baseball game with a spirit would have and we worked with just those, only layering on what was absolutely necessary to enhance the experience. We ended up with: Running, Hitting, Pitching, Sliding(which was later removed), and doing the same with the spirit. Then came the big question, which of the two should we focus on, puzzles or combat? With the verbs we had chosen we knew that it needed to have some action component, but on the other hand, my puzzle designs were looking like they could shape into something that had real teeth. We ultimately settled on a hybrid, but one that completely did away with the idea of health bars and damage numbers. The enemies moved around, but only really to serve as an extra layer on top of the puzzles. If you haven’t already, now might be a good time to watch a trailer or get some hands-on experience to understand how the puzzles operate in the final iteration.
-
-So, about these puzzles, they don’t just come out of nowhere, spawned perfectly from the initial mechanics passed onto us by the great all knowing eye. No, instead they needed to be carefully nurtured and developed, with an eye again for player readability. At the time of designing the puzzles I had just started playing The Witness, and to say it had an impact on my designs would probably be an understatement. To preface this I must say that I never considered myself a puzzle game player. I mostly stick to fighting games, creative games, and stealth games. The Witness gave me a solid blueprint for what a puzzle game should even be about, which was indispensable when making this game.
-
-The first and probably most important thing I noticed was that the puzzles in the witness were sequenced. First they start easy, and then gradually build and combine to create increasingly difficult puzzles. The coolest part about it was that you could try to do the last one first, but so much non-verbal information was gained through the previous puzzles that it would be hard to get any traction. I don’t think the game we ended up with is anywhere near as complex as the witness’s puzzles, I aimed for a softer puzzle experience to better fit our target audience who may be there just for the narrative, but in this one aspect I think I did a good job of ramping up the elements in an understandable but still challenging way.
-
-Overall I would say the puzzle design was a success, it didn't end here, there were many tweaks that needed to be done after playtest feedback, but for the most part people were getting the intended experience. One of the things I'm most proud of is the rooms with multiple solutions, allowing more proficient players to access secret areas hidden to most. This allowed me to put puzzles that may have broken the difficulty curve I was going for without cutting it from the game. The difficulty curve I tried to hit was one where the start of any area is relatively easy, ramped up until a fairly hard puzzle then gave a bit of breathing room for the last one. This was a success, though I think I could have included harder puzzles and extended some of the areas by a couple rooms.
 
 {% include open-embed.html %}

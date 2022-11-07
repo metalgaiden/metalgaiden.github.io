@@ -12,8 +12,11 @@ Wearing so many hats can be overwhelming, but the creative control allowed me to
 
 <iframe src="https://itch.io/embed/1698283?linkback=true&amp;bg_color=f7ccc5&amp;fg_color=222222&amp;link_color=7e10dc&amp;border_color=8d3ac7" width="552" height="167" frameborder="0"><a href="https://chonkershq.itch.io/chokeslam">Choke Slam by Chonkers HQ</a></iframe>
 
+<br/>
+
 https://youtu.be/iq-3eFvHILg
 
+<a href="#design"></a>
 ## Design
 Choke Slam started out when I was playing a match of Melty Blood: Type Lumina.
 The game had an uncharacteristic focus on air combat, and allowed the players a lot of air mobility options.
@@ -50,9 +53,7 @@ Below is a flowchart showing all the moves and their timings.
 
 <img src="/assets/img/chokeslam/animations.png" alt="drawing" height="400"/>
 
-## Highlights
-Here are a few interesting challenges I faced when making Choke slam.
-
+<a href="#programming"></a>
 ### Predictive aiming
 In order to make this game work with controllers, the standard controller for fighting games, I had to get creative with the aiming system.
 I chose to try implementing an auto aim feature that took into account the other player's velocity when you aim at them, so that you will catch them if they keep going that direction.
@@ -76,7 +77,8 @@ At 15 Frames the player stops shooting and begins to rotate back to their defaul
 The key point this adds to strategy is that the prediction does not account for any additional moves performed in the 10 frame startup window.
 This means you can perform an action such as a jump during this time, forcing your opponent to miss.
 
-### Dynamic Music
+<a href="#music"></a>
+## Dynamic Music
 Because Choke slam is a vertical game, and the height the players are at changes the gameplay significantly, I wanted to make music that changed with the height as well.
 
 In my research I found that most dynamic music revolves around layering "stems".
