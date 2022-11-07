@@ -16,7 +16,6 @@ Wearing so many hats can be overwhelming, but the creative control allowed me to
 
 https://youtu.be/iq-3eFvHILg
 
-<a href="#game_balance"></a>
 ## Game Balance
 The idea for Choke Slam was inspired by a match of Melty Blood: Type Lumina.
 The game had an uncharacteristic focus on air combat, and allowed the players a lot of air mobility options.
@@ -77,7 +76,6 @@ At 15 Frames the player stops shooting and begins to rotate back to their defaul
 The key point this adds to strategy is that the prediction does not account for any additional moves performed in the 10 frame startup window.
 This means you can perform an action such as a jump during this time, forcing your opponent to miss.
 
-<a href="#adaptive_music"></a>
 ## Adaptive Music
 Because Choke slam is a vertical game, and the height the players are at changes the gameplay significantly, I wanted to make music that changed with the height as well.
 

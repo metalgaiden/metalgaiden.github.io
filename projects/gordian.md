@@ -11,7 +11,6 @@ This project was made for the 2022 Project Revival Jam 2 and received [1st place
 
 <iframe src="https://itch.io/embed/1759770?linkback=true&amp;bg_color=9a9da0&amp;fg_color=1a1d20&amp;link_color=fcb75a&amp;border_color=84898d" width="552" height="167" frameborder="0"><a href="https://chonkershq.itch.io/gordian">Gordian by Chonkers HQ</a></iframe>
 
-<a href="#puzzle_design"></a>
 ## Puzzle Design
 This game took on a lot of iterations before arriving at the current version. It started as a physics platformer in need of a knot tying system, only for me to realize that tying knots already had more than enough complexity for it's own game.
 
@@ -39,7 +38,6 @@ One of my favorite knots started out as a game breaking bug that happened on edg
 
 Progression was helped along by a lot of playtesting. I got pretty close to the order I wanted, but found that different people can have wildly different approaches to the same puzzle, so I often had to adjust leveling or add in an intermediary puzzle here or there to help players along.
 
-<a href="#applied_mathematics"></a>
 ## Applied Mathematics
 There were several programming challenges I faced when working on Gordian, but the first and most pressing issue was how to recognize knots. Obviously knots are 3 dimensional objects, but in the field of topology they commonly represent knots with 2 dimensional diagrams that show the positions of crosses over and under.
 
@@ -116,7 +114,6 @@ After dealing with knot detection, the next challenge I faced was saving this da
 
 <img src="/assets/img/gordian/data.png" alt="drawing" height="400"/>
 
-<a href="#sound_design"></a>
 ## Sound Design
 Sound is probably the first thing you notice when you open a game and I wanted to make sure the sound design was as polished and unobtrusive as possible to make sure players are willing to spend time and effort exploring my systems.
 
@@ -134,7 +131,6 @@ For sound design my process was to add simple sounds to as many places as possib
 
 Sounds play for placing rope, undoing placements, tying a knot, tightening a knot, leveling up and clicking on UI. The sound for tying a knot is layered to be hidden if you also tighten a knot, but is noticeable enough to clue players in if they tie a knot they have done before.
 
-<a href="#ux_design"></a>
 ## UX Design
 When starting work on the game I wanted to bring the art in pretty late in the process. Because of the design of the puzzles I had to have a very clear idea of what I needed before the first puzzle frame was drawn.
 
