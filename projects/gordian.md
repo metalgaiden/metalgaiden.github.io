@@ -38,7 +38,7 @@ One of my favorite knots started out as a game breaking bug that happened on edg
 
 Progression was helped along by a lot of playtesting. I got pretty close to the order I wanted, but found that different people can have wildly different approaches to the same puzzle, so I often had to adjust leveling or add in an intermediary puzzle here or there to help players along.
 
-## Applied Mathematics
+## Knot Theory
 There were several programming challenges I faced when working on Gordian, but the first and most pressing issue was how to recognize knots. Obviously knots are 3 dimensional objects, but in the field of topology they commonly represent knots with 2 dimensional diagrams that show the positions of crosses over and under.
 
 <img src="/assets/img/gordian/trefoil.png" alt="drawing" height="400"/>
