@@ -16,7 +16,6 @@ I also composed all the music for the game.
 
 https://youtu.be/pxyQMxoKhJY
 
-<a href="#design"></a>
 ## Design
 Homerun Miko is a puzzle game, and while what makes a good puzzle game can be hard to define, it boils down to a few main components.
 1. The game should teach you as you play. Figuring out mechanics is a large part of the progression the player goes through.
@@ -59,7 +58,7 @@ In my play testing I also noticed a type of collision appear that I had not inte
 
 There are probably other combinations of collisions to explore, especially if more and more elements are added on top, but I think this game was a good exploration of the mechanics I found most easily communicated to the player. I am especially proud of the lack of an explicit tutorial. The characters in the game explain some basic movement mechanics, but other than that the actions of the player are mostly suggested through good level design and affordances that the player might already have about how water, or the basics of baseball might work. I surprised myself with how much I got out of the base mechanics and I'm happy with the level of interest that the puzzle game could offer it's players.
 
-<a href="#math"></a>
+<a href="#linear_algrbra"></a>
 ## Linear algebra to the rescue
 At one point during the game's development we ran into an issue bouncing enemies off the walls. What we didn't realize at first was that the isometric perspective impacts these results quite a bit, and it took a fair bit of intuition and critical thinking to get past it.
 
@@ -95,7 +94,6 @@ After consulting with a fellow math nerd we came up with this solution: Basicall
 
 There's a bit more to it since the normal had to be flipped by 90 degrees before and after transforming, but once we had the intuition of what to do, the rest came a lot easier.
 
-<a href="#tools"></a>
 ## Designing in meat space
 I tried a lot of technologies to design the levels in this game, but the one that I settled on was to use a board from the game Go and salvaged game pieces from several other games to recreate the levels in 3D.
 

@@ -16,9 +16,9 @@ Wearing so many hats can be overwhelming, but the creative control allowed me to
 
 https://youtu.be/iq-3eFvHILg
 
-<a href="#design"></a>
-## Design
-Choke Slam started out when I was playing a match of Melty Blood: Type Lumina.
+<a href="#game_balance"></a>
+## Game Balance
+The idea for Choke Slam was inspired by a match of Melty Blood: Type Lumina.
 The game had an uncharacteristic focus on air combat, and allowed the players a lot of air mobility options.
 I thought about what would happen if you removed many of the air mobility limitations and allowed players to go as high as they want, and thus Choke Slam was born.
 
@@ -53,7 +53,6 @@ Below is a flowchart showing all the moves and their timings.
 
 <img src="/assets/img/chokeslam/animations.png" alt="drawing" height="400"/>
 
-<a href="#programming"></a>
 ### Predictive aiming
 In order to make this game work with controllers, the standard controller for fighting games, I had to get creative with the aiming system.
 I chose to try implementing an auto aim feature that took into account the other player's velocity when you aim at them, so that you will catch them if they keep going that direction.
@@ -77,7 +76,7 @@ At 15 Frames the player stops shooting and begins to rotate back to their defaul
 The key point this adds to strategy is that the prediction does not account for any additional moves performed in the 10 frame startup window.
 This means you can perform an action such as a jump during this time, forcing your opponent to miss.
 
-<a href="#music"></a>
+<a href="#dynamic_music"></a>
 ## Dynamic Music
 Because Choke slam is a vertical game, and the height the players are at changes the gameplay significantly, I wanted to make music that changed with the height as well.
 
