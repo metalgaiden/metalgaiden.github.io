@@ -11,6 +11,10 @@ This project was made for the 2022 Project Revival Jam 2 and received [1st place
 
 <iframe src="https://itch.io/embed/1759770?linkback=true&amp;bg_color=9a9da0&amp;fg_color=1a1d20&amp;link_color=fcb75a&amp;border_color=84898d" width="552" height="167" frameborder="0"><a href="https://chonkershq.itch.io/gordian">Gordian by Chonkers HQ</a></iframe>
 
+<br/>
+
+https://youtu.be/lFPFSGnLBj0
+
 ## Puzzle Design
 This game took on a lot of iterations before arriving at the current version. It started as a physics platformer in need of a knot tying system, only for me to realize that tying knots already had more than enough complexity for it's own game.
 
