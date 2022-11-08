@@ -112,7 +112,7 @@ Finally we have the starting end of the knot. There isn't really a way to solve 
 
 Since we are only dealing with one rope, this can become a trade-off of computation versus data. I opted to save the bi directionality for the checking step of the computation rather than storing backwards and forwards versions of all knots, which doubles the time it takes, but that's just (2N) so it's still in linear time.
 
-To read more about this process I would look at the write-up I did on the knot detection system here: [MUNCK](https://docs.google.com/document/d/12isSWXShy_WF7h9Zc-I2DHJOmNN-t_tfV2iYJuIETSs/edit?usp=sharing)
+To read more about this process look at the write-up I did on the knot detection system here: [MUNCK](https://docs.google.com/document/d/12isSWXShy_WF7h9Zc-I2DHJOmNN-t_tfV2iYJuIETSs/edit?usp=sharing)
 
 After dealing with knot detection, the next challenge I faced was saving this data in the game. Not only would I be saving the player's progress, but I also wanted to make put all of the knot data in once place so I could change it there and have those changes propagate across the entire game. Below is a diagram describing my data storage design.
 
