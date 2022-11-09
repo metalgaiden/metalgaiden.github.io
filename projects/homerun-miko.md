@@ -8,8 +8,7 @@ It was created as part of my senior capstone project at UCSC and involved a team
 10 people and a 9 month development cycle.
 
 My role on this project was as lead designer. I designed and iterated on the gameplay
-interactions and puzzle designs, which required coordination with the
-programming team and they helped solidify a number of important design decisions.
+interactions and puzzle designs, and worked alongside the programming team to implement those visions.
 I also composed all the music for the game.
 
 <iframe src="https://itch.io/embed/896282?linkback=true&amp;bg_color=fefbf4&amp;fg_color=222222&amp;link_color=fa5c5c&amp;border_color=d38d76" width="552" height="167" frameborder="0"><a href="https://chonkershq.itch.io/homerun-miko">Homerun Miko by Chonkers HQ</a></iframe>
