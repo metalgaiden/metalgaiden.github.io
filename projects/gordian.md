@@ -121,23 +121,23 @@ After dealing with knot detection, the next challenge I faced was saving this da
 ## Sound Design
 Sound is probably the first thing you notice when you open a game, and I wanted to make sure the sound design was as polished and unobtrusive as possible to make sure players are willing to spend time and effort exploring my systems.
 
-The music is pretty simple. It layers ocean sounds, strings, and synth bells that remind me of Blade Runner. One special feature is that the music runs backwards when you undo your moves.
+The music layers ocean sounds, strings, and synth bells that remind me of Blade Runner. It also has a unique feature where it plays backwards when the player undoes their moves.
 
 /assets/audio/gordian/gordian.wav
 
-The simple solution to allow the music to run backwards was just to have two versions of the main song, one forward and one backwards. When you press the undo key it will play the backwards version at "full song length" - "current song position". I also added a bit of buffer to make sure the player couldn't freeze up the music. It sounds cool, but was just a little too distracting.
+The backwards effect was achieved by having two versions of the main song, one forwards and one backwards, and playing the backwards version at a point in the song corresponding to the current position in the forwards version. I also added a bit of buffer to prevent the music from freezing.
 
 /assets/audio/gordian/gordian-reversed.wav
 
-Another thing I noticed in designing the music was that the strings and ocean sounds were almost impossible to tell when they were reversed. This means that you won't notice the reversing music until at least a good ways into the game. It's this kind of subtlety that games like this need, in order to turn the volume down on everything non-essential.
+Another thing I noticed in designing the music was that the strings and ocean sounds didn't sound all that different reversed. Since the bells are used sparingly, you won't really notice the effect until a ways into the game. It's this kind of subtlety that games like this need, in order to turn the volume down on everything non-essential.
 
-For sound design, I wanted each sound to be unique and layer on top of each other well when multiple things happen at once. Each sound was a collection of 2-3 sound files, picked at random and pitched slightly up or down.
+For the sound design of in-game actions like placing rope and tying knots, I wanted each sound to be distinct and to layer well when multiple actions happen at once. To achieve this, I used a combination of 2-3 sound files for each sound, randomly selecting and pitch-shifting them.
 
-First was the sound of placing rope. I used a simple blip sound with pitch variation on each placement.
+The sound of placing rope, for example, consists of a simple blip with pitch variation on each placement.
 
 /assets/audio/gordian/place.wav
 
-Next was the undo sound, for which I just reversed the placement sound and lowered the volume a bit to sit better in the mix.
+The undo sound is simply the placement sound played in reverse and with the volume lowered a bit.
 
 /assets/audio/gordian/undo.wav
 
@@ -145,11 +145,11 @@ When you tie a legitimate knot, a rope drag sound plays. Since you can only tie 
 
 /assets/audio/gordian/tie.wav
 
-If you tie a new knot, or tie a knot smaller than you have before, a tightening rope sound will play. In this case, it is layering on top of the placement and tie sounds.
+If a new or smaller knot is tied, a tightening rope sound is layered on top of the placement and tie sounds.
 
 /assets/audio/gordian/tighten.wav
 
-Lastly, if you happen to level up because of a knot you tied you will hear some chimes that remind me of ship bells.
+Finally, if a player levels up because of a knot they tied, they'll hear chimes that remind me of ship bells.
 
 /assets/audio/gordian/level.wav
 

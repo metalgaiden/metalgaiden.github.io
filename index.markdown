@@ -7,7 +7,7 @@ layout: default
 
 ![Banner](/assets/img/bg-masthead.jpg)
 <h2> About me: </h2>
-Hi, I’m Eli and I’m a game designer with skills in programming, design, music and sound. My goal is to make games that are as unique as they are interesting. Games are more interesting when they have vision and voice behind them, so I hope to work on games that I’m uniquely situated to make.
+Hi, I’m Eli and I’m a game developer with skills in programming, design, music and sound. I have a strong desire to work on projects that challenge me to think creatively and utilize my diverse skill set.
 
 Below are my game projects. Click on them to read a detailed breakdown of the work I did on each one.
 
@@ -17,19 +17,19 @@ Below are my game projects. Click on them to read a detailed breakdown of the wo
 
 [<img src="/assets/img/thumbnails/gordian.png" alt="drawing" width="400"/>](/projects/gordian)
 
-My most recent work, which displays my ability to solve complex problems and also make interesting and engaging puzzle systems, is [Gordian](/projects/gordian). It's a game about tying knots, and I did the programming, design, sound effects and music. It shows what a generalist can do when touching every piece of the game making pie. I'm really proud of how I brought this one together. Try it out - you'll be impressed.
+While working as a game developer, I developed strong problem-solving skills and the ability to create engaging and unique puzzle systems. My game, [Gordian](/projects/gordian), showcases these skills and demonstrates my ability to work on every aspect of game development.
 
 <br/>
 
 [<img src="/assets/img/thumbnails/choke-slam.png" alt="drawing" width="400"/>](/projects/choke-slam)
 
-If you want to see my work on action games, take a look at [Choke Slam](/projects/choke-slam). It’s a one on one fighting game made in the Godot engine, designed and programmed by me. I enjoyed the challenge of dialing in fighting game mechanics that have both depth and good game feel. The game requires a second player, but it's well worth grabbing one. You'll find it's quite fun and there's plenty of strategy and mind games to discover.
+I also have experience in action game design, as shown in my project [Choke Slam](/projects/choke-slam), a one on one fighting game built in the Godot engine. I enjoyed the challenge of refining and implementing fighting game mechanics to create a deep and enjoyable gameplay experience.
 
 <br/>
 
 [<img src="/assets/img/thumbnails/homerun-miko.png" alt="drawing" width="400"/>](/projects/homerun-miko)
 
-If you’d like to see more of my puzzle design work, check out [Homerun Miko](/projects/homerun-miko). It was built in Unity for my senior capstone project at UC Santa Cruz. You’ll find the puzzles interesting and unique, with plenty of “aha!” moments to be had.
+In my project [Homerun Miko](/projects/homerun-miko), developed in Unity as my senior capstone project at UC Santa Cruz, I displayed my puzzle design skills, creating unique and challenging puzzles with satisfying "aha!" moments.
 
 
 {% include open-embed.html %}
