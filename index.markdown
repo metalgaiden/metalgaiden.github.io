@@ -7,7 +7,7 @@ layout: default
 
 ![Banner](/assets/img/bg-masthead.jpg)
 <h2> About me: </h2>
-Hi, I’m Eli and I’m a game developer with skills in programming, design, music and sound. I have a strong desire to work on projects that challenge me to think creatively and utilize my diverse skill set.
+Hi, I’m Eli and I’m a game developer with skills in programming, design, music and sound. I have a strong desire to work on things that challenge me to think creatively and utilize my diverse skill set.
 
 Below are my game projects. Click on them to read a detailed breakdown of the work I did on each one.
 
