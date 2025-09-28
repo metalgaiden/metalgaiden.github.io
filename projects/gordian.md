@@ -12,7 +12,7 @@ It was also nominated for the [Hobby, Game Jam and Student categories of GDWC 20
 
 <iframe src="https://itch.io/embed/1759770?linkback=true&amp;bg_color=9a9da0&amp;fg_color=1a1d20&amp;link_color=fcb75a&amp;border_color=84898d" width="552" height="167" frameborder="0"><a href="https://chonkershq.itch.io/gordian">Gordian by Chonkers HQ</a></iframe>
 
-<iframe src="http://store.steampowered.com/app/3689010" 
+<iframe src="http://store.steampowered.com/widget/3689010" 
         frameborder="0" 
         width="646" 
         height="190">
